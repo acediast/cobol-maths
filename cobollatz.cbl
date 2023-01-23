@@ -1,6 +1,6 @@
        Identification division.
-
-       PROGRAM-ID.   COLLATZ.
+      
+       Program-ID. COBOLLATZ.
 
        Data division.
 
