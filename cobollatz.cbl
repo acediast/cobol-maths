@@ -21,7 +21,7 @@
            Display "Input starting point: " with no advancing.
            Accept WS-NUMBER from console.
            Perform with test after until WS-NUMBER is equal to 1
-               compute WS-NUMBER = HAILSTONE(WS-NUMBER)
+               move function HAILSTONE(WS-NUMBER) to WS-NUMBER
                move WS-NUMBER to WS-OUTPUT
                display function trim(WS-OUTPUT)
            end-perform.
