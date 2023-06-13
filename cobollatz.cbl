@@ -28,18 +28,18 @@
            Display "End.".
            Stop run.
 
-004000 End program COBOLLATZ.
+003999 End program COBOLLATZ.
 
-005000 Identification division.
+004000 Identification division.
        Function-ID. HAILSTONE.
-       Remarks.     Evaluate parity, perform function and return result.
+       Remarks. Evaluate parity, perform function and return result.
        
-006000 Data division.
+005000 Data division.
        Linkage section.
        77 LS-ARGUMENT usage is binary-long unsigned.
        77 LS-RESULT usage is binary-long unsigned.
 
-007000 Procedure division using LS-ARGUMENT returning LS-RESULT.
+006000 Procedure division using LS-ARGUMENT returning LS-RESULT.
        Main section.
            Evaluate function rem(LS-ARGUMENT,2)
                when 0
@@ -50,4 +50,4 @@
            end-evaluate.
            Exit function.
 
-008000 End function HAILSTONE.
+006999 End function HAILSTONE.
