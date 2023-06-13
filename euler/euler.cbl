@@ -1,4 +1,4 @@
-       Identification division.
+000100 Identification division.
        Program-ID. EULER.
 
        Environment division.
@@ -28,7 +28,7 @@
 
        End program EULER.
        
-222222 Identification division.
+004000 Identification division.
        Function-ID. p.
 
        Environment division.
@@ -64,7 +64,7 @@
 
        End function p.
        
-333333 Identification division.
+009000 Identification division.
        Function-ID. q.
 
        Data division.
