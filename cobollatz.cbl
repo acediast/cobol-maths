@@ -32,6 +32,7 @@
 
 005000 Identification division.
        Function-ID. HAILSTONE.
+       Remarks.     Evaluate parity, perform function and return result.
        
 006000 Data division.
        Linkage section.
