@@ -1,7 +1,7 @@
 000100 Identification division.
        Program-ID.    BMI-CALCULATOR.
        Date-written.  2023-04-26.
-       Installation.  WSL.
+       Installation.  WSL2.
        Security.      Non-confidential.
 
 001000 Environment division.
