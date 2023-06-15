@@ -10,13 +10,13 @@
 
 002000 Data division.
        Working-storage section.
-       77 WS-BMI            picture is 99.9.
+       77  WS-BMI           picture is 99.9.
            88 UNDERWEIGHT   value is 0 through 18.4.
            88 ACCEPTABLE    value is 18.5 through 23.0.
            88 OVERWEIGHT    value is 23.1 through 99.9.
-       77 WS-WEIGHT         usage is float-short. 
-       77 WS-HEIGHT         usage is float-short.
-       77 WS-ACCEPTABILITY  picture is X(18).
+       77  WS-WEIGHT        usage is float-short. 
+       77  WS-HEIGHT        usage is float-short.
+       77  WS-ACCEPTABILITY picture is X(18).
 
 003000 Procedure division.
        MAIN section.
