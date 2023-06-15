@@ -6,7 +6,7 @@
 
 001000 Environment division.
        Configuration section.
-       Object-computer. x86-64.
+       Source-computer. x86-64.
 
 002000 Data division.
        Working-storage section.
