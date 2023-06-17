@@ -1,5 +1,9 @@
 000100 Identification division.
-       Program-ID. EULER.
+       Program-ID.    EULER.
+       Date-written.  2023-06-13.
+       Installation.  WSL2.
+       Security.      Non-confidential.
+       Remarks.       Not working yet.
 
        Environment division.
        Configuration section.
@@ -18,8 +22,9 @@
            Accept WS-END-PT from console.
            Perform varying WS-PLACE from 1 by 1
            until WS-PLACE is equal to WS-END-PT
-               compute WS-DIGIT =
-                       (p(0,WS-PLACE) / q(0,WS-PLACE))
+               compute WS-DIGIT
+                       rounded mode is nearest-away-from-zero
+                       = (p(0,WS-PLACE) / q(0,WS-PLACE))
                        + 1
                end-compute
                display WS-DIGIT with no advancing
