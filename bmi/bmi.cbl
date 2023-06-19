@@ -21,9 +21,9 @@
 003000 Procedure division.
        MAIN section.
            Display "Enter weight in kg: " with no advancing.
-           Accept WS-WEIGHT from console.
+           Accept WS-WEIGHT.
            Display "Enter height in m: " with no advancing.
-           Accept WS-HEIGHT from console.
+           Accept WS-HEIGHT.
            Perform calculate-BMI.
            Display "Body Mass Index:" space WS-BMI.
            Perform EVALUATE-ACCEPTABILITY.
