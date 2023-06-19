@@ -29,7 +29,7 @@
                display function trim(WS-OUTPUT) upon stdout
            end-perform.
            Display "End." upon console.
-           Stop run.
+           Stop run with normal status.
 
 003999 End program COBOLLATZ.
 
@@ -40,7 +40,7 @@
 005000 Data division.
        Linkage section.
        77 LS-ARGUMENT usage is binary-long unsigned.
-       77 LS-RESULT usage is binary-long unsigned.
+       77 LS-RESULT   usage is binary-long unsigned.
 
 006000 Procedure division using LS-ARGUMENT returning LS-RESULT.
        Main section.

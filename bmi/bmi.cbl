@@ -28,7 +28,7 @@
            Display "Body Mass Index:" space WS-BMI.
            Perform EVALUATE-ACCEPTABILITY.
            Display function trim(WS-ACCEPTABILITY).
-           Stop run.
+           Stop run with normal status.
        CALCULATE-BMI section.
            Initialize WS-BMI.
            Compute WS-BMI
