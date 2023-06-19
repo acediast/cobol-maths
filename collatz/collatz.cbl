@@ -18,14 +18,17 @@
 003000 Procedure division.
        Main section.
            Initialize WS-NUMBER.
-           Display "Input starting point: " with no advancing.
-           Accept WS-NUMBER from console.
+           Display
+               "Input starting point: "
+               with no advancing upon console
+           end-display.
+           Accept WS-NUMBER from stdin.
            Perform with test after until WS-NUMBER is equal to 1
                move function HAILSTONE(WS-NUMBER) to WS-NUMBER
                move WS-NUMBER to WS-OUTPUT
-               display function trim(WS-OUTPUT)
+               display function trim(WS-OUTPUT) upon stdout
            end-perform.
-           Display "End.".
+           Display "End." upon console.
            Stop run.
 
 003999 End program COBOLLATZ.
