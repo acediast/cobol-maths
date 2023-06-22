@@ -29,7 +29,7 @@
                end-compute
                display WS-DIGIT with no advancing
            end-perform.
-           Goback.
+           Stop run with normal status.
 
        End program EULER.
        
@@ -54,7 +54,7 @@
                then move 1 to LS-RESULT
                else perform DEFAULTED
            end-if.
-           Goback.
+           Exit function.
            Exit section.
 
        DEFAULTED section.
@@ -85,7 +85,7 @@
                then move LS-ARG2 to LS-RESULT
                else perform DEFAULTED
            end-if.
-           Goback.
+           Exit function.
            Exit section.
        
        DEFAULTED section.
