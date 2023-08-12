@@ -7,6 +7,7 @@
 001000 Environment division.
        Configuration section. 
        Source-computer. x86-64.
+       Special-names.
        Repository.
            Function HAILSTONE.
 
