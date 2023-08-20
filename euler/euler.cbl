@@ -42,10 +42,11 @@
            Function q.
 
        Data division.
+       Local-storage section.
+       77 LS-M      usage is binary-long unsigned.
        Linkage section.
        77 LS-ARG1   usage is binary-long unsigned.
        77 LS-ARG2   usage is binary-long unsigned.
-       77 LS-M      usage is binary-long unsigned.
        77 LS-RESULT usage is binary-long unsigned.
 
        Procedure division using LS-ARG1 LS-ARG2 returning LS-RESULT.
@@ -73,10 +74,11 @@
        Function-ID. q.
 
        Data division.
+       Local-storage section.
+       77 LS-M      usage is binary-long unsigned.
        Linkage section.
        77 LS-ARG1   usage is binary-long unsigned.
        77 LS-ARG2   usage is binary-long unsigned.
-       77 LS-M      usage is binary-long unsigned.
        77 LS-RESULT usage is binary-long unsigned.
 
        Procedure division using LS-ARG1 LS-ARG2 returning LS-RESULT.
